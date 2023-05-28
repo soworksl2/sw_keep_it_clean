@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from error_handling import exit_with_error
+from util.error_handling import exit_with_error
 
 ABS_PATH_KEY = 'abs_path'
 EXCLUSION_ITEMS_KEY = 'exclusion_items'

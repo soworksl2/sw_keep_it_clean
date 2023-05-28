@@ -3,7 +3,7 @@ import json
 
 from clean_instructions import CleanInstruction
 from normal_cleaner import NormalCleaner
-from sw_keep_it_clean.error_handling import exit_with_error
+from util.error_handling import exit_with_error
 
 
 LOCALAPPDATA_PATH = os.environ['LOCALAPPDATA']

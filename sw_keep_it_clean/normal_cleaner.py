@@ -7,7 +7,7 @@ from enum import Enum
 from cleaner_base import CleanerBase
 from clean_instructions import CleanInstruction
 from directory_instructions import DirectoryInstructions
-import sw_log
+from util import sw_log
 
 
 class ItemCleanState(Enum):
